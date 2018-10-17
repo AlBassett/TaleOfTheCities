@@ -1,16 +1,20 @@
+
+
 $(document).ready(function () {
 
 
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyDgjIgV2Z9ISAFCorgkk8sWetfy4Jj_GAc",
-    authDomain: "mspvstpcomplete.firebaseapp.com",
-    databaseURL: "https://mspvstpcomplete.firebaseio.com",
-    projectId: "mspvstpcomplete",
-    storageBucket: "",
-    messagingSenderId: "208584269987"
-  };
-  firebase.initializeApp(config);
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyDgjIgV2Z9ISAFCorgkk8sWetfy4Jj_GAc",
+        authDomain: "mspvstpcomplete.firebaseapp.com",
+        databaseURL: "https://mspvstpcomplete.firebaseio.com",
+        projectId: "mspvstpcomplete",
+        storageBucket: "mspvstpcomplete.appspot.com",
+        messagingSenderId: "208584269987"
+    };
+    firebase.initializeApp(config);
+
+    
 
     var database = firebase.database();
 
@@ -215,6 +219,8 @@ $(document).ready(function () {
             }
         }
     }
+
+
 
  //var census = new CensusModule("7142b648e9884e064107cbd17a173f668b40558b"); //Create and activate the module
   //var APIKey = "7142b648e9884e064107cbd17a173f668b40558b"
